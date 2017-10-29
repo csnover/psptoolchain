@@ -11,10 +11,10 @@
  set -e
 
  ## Download the source code if it does not already exist.
- download_and_extract ftp://ftp.gnu.org/pub/gnu/gcc/gcc-$GCC_VERSION/gcc-$GCC_VERSION.tar.bz2 gcc-$GCC_VERSION
+ download_and_extract https://ftp.gnu.org/pub/gnu/gcc/gcc-$GCC_VERSION/gcc-$GCC_VERSION.tar.bz2 gcc-$GCC_VERSION
 
  ## Download the library source code if it does not already exist.
- download_and_extract http://gmplib.org/download/gmp/gmp-$GMP_VERSION.tar.bz2 gmp-$GMP_VERSION
+ download_and_extract https://gmplib.org/download/gmp/gmp-$GMP_VERSION.tar.bz2 gmp-$GMP_VERSION
  download_and_extract http://www.multiprecision.org/mpc/download/mpc-$MPC_VERSION.tar.gz mpc-$MPC_VERSION
  download_and_extract http://www.mpfr.org/mpfr-$MPFR_VERSION/mpfr-$MPFR_VERSION.tar.bz2 mpfr-$MPFR_VERSION
 
