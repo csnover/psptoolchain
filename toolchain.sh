@@ -1,6 +1,8 @@
 #!/bin/bash
 # toolchain.sh by Dan Peori (danpeori@oopo.net)
 
+set -e
+
  ## Load and export shared functions
  source common.sh
  export -f num_cpus
